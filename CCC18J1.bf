@@ -106,7 +106,7 @@ That is if cell 3 is nonzero after the subtraction
     >>-                            Set cell 5 to 0
     <<[-]                          Set cell 3 to 0 to end loop
 ]
->>
+>>                                 Go to cell 5
 
 Now at cell 5
 The code within these brackets only runs if the digits were equal
