@@ -36,7 +36,7 @@ This loop stores N number of values from yesterday's parking spots
     >>>>                           Go to cell 5
     [>]                            Go right until we hit an empty (zero) cell
     ,                              Store parking space value into this cell
-    [<]                            Go left until we get to the empty cell 3
+    [<]                            Go left until we get to the empty cell 4
     <<<-                           Decrement cell 1
 ]
 >>>                                Go to cell 4
