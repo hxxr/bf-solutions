@@ -96,7 +96,7 @@ This loop runs once per remaining line and ends with EOF (255)
     Now at cell 0
     --                           Subtract 2 from cell 0
     The code within these brackets only runs if the first integer was negative
-    If this is the case we must apply the method of complements on its digits
+    If this is the case we must apply the Method of Complements on its digits
     0 becomes 9 and 1 becomes 8 and so on
     And then we must add 1 to the new number
     [
@@ -125,7 +125,7 @@ This loop runs once per remaining line and ends with EOF (255)
     Now at cell 1
     --                           Subtract 2 from cell 1
     The code within these brackets only runs if the second integer was negative
-    If this is the case we must apply the method of complements on its digits
+    If this is the case we must apply the Method of Complements on its digits
     0 becomes 9 and 1 becomes 8 and so on
     And then we must add 1 to the new number
     [
@@ -182,7 +182,7 @@ This loop runs once per remaining line and ends with EOF (255)
                 <<               Go back to current digit's cell Z
                 It's possible to double carry here due to Method of Complements
                 [-<+>[-<+>[-<+>[-<+>[-<+>[-<+>[-<+>[-<+>[-<+>[-<+>
-                    The code within these brackets only runs if after 19 Move
+                    The code within these brackets only runs if after 19 move
                     operations cell Z is still positive indicating it was 20
                     [
                         <[-]-    Subtract 10 from cell Y (for carrying)
@@ -234,7 +234,7 @@ This loop runs once per remaining line and ends with EOF (255)
     Now at cell 0
     The code within these brackets only runs if cell 0 is odd (rather than even)
     If cell 0 is odd then the sum is negative
-    In this case we must use the method of complements on the digits in the sum
+    In this case we must use the Method of Complements on the digits in the sum
     And then add 1 to the new sum
     Afterwards cell 0 is set to 0 if the sum is positive or 1 if it is negative
     [--[
@@ -330,7 +330,7 @@ This loop runs once per remaining line and ends with EOF (255)
     >                            Go to cell 3
 
     Now at cell 3
-    ++++++++++.[-]               Print a newline using cell 3
+    ++++++++++.                  Print a newline using cell 3
     ,                            Read digit into cell 3 from next line
     +                            Increment cell 3 to check for EOF (255)
 ]
@@ -350,5 +350,5 @@ MINIFIED CODE:
 >[>>>]<+[<[>-<[->>+<<]]>>[-<<+>>]<[<<-<+>>>-]<<<<<[<<<]>>[-]>[>>>]<]<<[<<<]>>>[-
 ]+<<<<[>>>>>+<[>[->+<]>[-<+>[-<+>[-<+>[-<+>[-<+>[-<+>[-<+>[-<+>[-<+>[<[-]->>[-]+
 >+<<[-<+>]]]]]]]]]]]>]<<<[<<<]<-]>>>>[>>>]<<<[+++++[>++++++++<-]>.[-]<<<<]>+++++
-+++++.[-],+]
++++++.,+]
 ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
