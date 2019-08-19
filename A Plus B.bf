@@ -21,7 +21,7 @@ This loop runs once per remaining line and ends with EOF (255)
     The digits of the first number are stored in cells 6 9 12 15 etc
     Cell 6 contains the least significant digit
     The digits of the second number are stored in cells 7 10 13 16 etc
-    Cell 8 contains the least significant digit
+    Cell 7 contains the least significant digit
     The cell to the left of a digit in the first number is always set to 1
 
     Now at cell 3
@@ -87,7 +87,7 @@ This loop runs once per remaining line and ends with EOF (255)
     Y: Contains a digit from the first number
     Z: Contains the corresponding digit from the second number
 
-    To the left of Z is the X cell of the next least significant digit
+    To the right of Z is the X cell of the next least significant digit
 
     After the sum for each digit:
     Cell X is still 1
