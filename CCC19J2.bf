@@ -18,7 +18,7 @@ This loop runs L times (once for each line)
     <++++++[>--------<-]>          Subtract 48 from cell 3 to get true value
     [-<<+>>]                       Move cell 3 into cell 1
     ,                              Read next most significant digit into cell 3
-    <++++[>--------<-]>            Subtract 32 from cell 3 to check for newline
+    <++++[>--------<-]>            Subtract 32 from cell 3 to check for space
     [
         ----------------           Subtract 16 from cell 3 to get true value
         <<                         Go to cell 1
