@@ -4,7 +4,6 @@ Now at cell 0
 This loop ignores all characters from the first line and ends with newline (10)
 +                                Set cell 0 to 1
 [
-    [-]                          Ignore input
     ,                            Read next character into cell 0
     ----------                   Subtract 10 from cell 0 to check for newline
 ]
