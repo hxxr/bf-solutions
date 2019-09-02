@@ -322,7 +322,7 @@ This loop runs once per remaining line and ends with EOF (255)
 
     This loop prints all the digits in the sum by adding 48
     [
-        +++++[>++++++++<-]>      Add 48 to cell X
+        +++++[>++++++++<-]>      Add 48 to cell Y
         .[-]                     Print
         <<<<                     Go to next most significant digit's cell X
     ]
